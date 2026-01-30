@@ -1,5 +1,7 @@
 # 📘 Caderno Temático Financeiro com NotebookLM + IA
 
+[Assista ao vídeo criado pelo NotebookLM](https://youtu.be/eQc_w-IX3g8)
+
 ## Visão Geral
 
 Este repositório documenta um **desafio prático de aprendizagem ativa** que combina **curadoria de fontes abertas**, **pensamento crítico** e **uso estratégico de IA** para estudar um **tema específico introdutório**.
