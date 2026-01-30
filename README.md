@@ -20,8 +20,7 @@ O desafio é dividido em etapas claras, com foco em organização do conheciment
 
 ### 1. Curadoria de Fontes
 - Seleção de **3 a 5 fontes abertas** (texto ou PDF)
-- Tema financeiro de nível introdutório  
-  *(ex.: educação financeira, inflação, juros, crédito, orçamento, investimentos básicos)*
+- Tema de nível introdutório  
 
 ### 2. Definição de Objetivos de Estudo
 - O que deve ser compreendido ao final?
@@ -41,9 +40,8 @@ O desafio é dividido em etapas claras, com foco em organização do conheciment
 ### 5. Consolidação do Conhecimento
 O resultado final é um **miniguia de estudo**, contendo:
 - Resumos estruturados
-- Glossário de conceitos financeiros
+- Glossário de conceitos
 - Insights e conexões entre fontes
-- Conjunto de prompts reutilizáveis para revisões futuras
 
 ---
 
@@ -51,8 +49,8 @@ O resultado final é um **miniguia de estudo**, contendo:
 
 - Caderno temático no NotebookLM  
 - Miniguia de estudo em formato organizado
+- Áudio e Vídeo explicativo criado pelo notebook
 - Glossário introdutório
-- Biblioteca de prompts reutilizáveis
 - Referências claras e rastreáveis às fontes originais
 
 ---
@@ -75,6 +73,4 @@ Sugestões de temas, fontes abertas, melhorias nos prompts ou novos formatos de 
 Sinta-se à vontade para abrir issues ou pull requests.
 
 ---
-Este repositório não é sobre decorar conceitos, é sobre **aprender a aprender**, usando IA como aliada — e não como muleta.
-
-Bom estudo e bons prompts! 🚀
+Este repositório é sobre **aprender a aprender**, usando IA como aliada. Obrigado
