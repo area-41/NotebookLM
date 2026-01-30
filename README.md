@@ -1,4 +1,6 @@
-# 📘 Caderno Temático Financeiro com NotebookLM + IA
+# 📘 Caderno Temático com NotebookLM + IA
+
+### Mentor de livros Python
 
 links:
 - Apresentação em vídeo criado pelo NotebookLM: [Vídeo](https://youtu.be/eQc_w-IX3g8)
@@ -6,11 +8,9 @@ links:
 
 ## Visão Geral
 
-Este repositório documenta um **desafio prático de aprendizagem ativa** que combina **curadoria de fontes abertas**, **pensamento crítico** e **uso estratégico de IA** para estudar um **tema específico introdutório**.
+Este repositório documenta um **desafio prático de aprendizagem ativa** da DIO que combina **curadoria de fontes abertas**, **pensamento crítico** e **uso estratégico de IA** para estudar um **tema específico introdutório**.
 
 A proposta central é criar um **caderno temático no NotebookLM**, reunindo de **3 a 5 fontes abertas** (artigos, relatórios ou PDFs), e transformar esse material bruto em um **miniguia de estudo estruturado**, reutilizável e bem referenciado.
-
-Aqui, a IA não é oráculo — é **copiloto cognitivo**.
 
 ---
 
@@ -64,13 +64,6 @@ Este projeto enfatiza o uso da **IA como ferramenta de aprendizagem ativa**, pro
 - Organização do conhecimento
 - Autonomia intelectual
 - Uso responsável e produtivo de IA
-
----
-
-## Contribuições
-
-Sugestões de temas, fontes abertas, melhorias nos prompts ou novos formatos de miniguia são muito bem-vindas.  
-Sinta-se à vontade para abrir issues ou pull requests.
 
 ---
 Este repositório é sobre **aprender a aprender**, usando IA como aliada. Obrigado
