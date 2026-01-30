@@ -1,0 +1,68 @@
+"Na programação orientada a objetos, o que é um 'objeto'?",É uma coleção de dados e comportamentos associados que modela algo do mundo real ou abstrato.
+Qual é a diferença fundamental entre uma 'classe' e um 'objeto'?,"Uma classe é um projeto ou modelo para criar objetos, enquanto um objeto é uma instância específica de uma classe."
+O que representa a 'multiplicidade' em um diagrama de classes UML?,Indica quantos objetos de uma classe podem estar associados a um objeto de outra classe.
+"Em OOP, os dados que descrevem as características individuais de um objeto são chamados de _____.",atributos
+"As ações que podem ser executadas em um objeto, definidas em sua classe, são conhecidas como _____.",métodos
+"Qual princípio de OOP se refere a esconder os detalhes de implementação de um objeto, expondo apenas uma interface pública?",Encapsulamento (ou ocultação de informação).
+O que é 'abstração' no contexto da programação orientada a objetos?,"É o processo de lidar com o nível de detalhe mais apropriado para uma tarefa, extraindo uma interface pública dos detalhes internos."
+Que tipo de relacionamento OOP é descrito como 'uma parte de' e é usado quando um objeto é composto por vários outros?,Composição.
+Qual é a diferença entre 'agregação' e 'composição'?,"Na composição, o objeto contido não pode existir independentemente do contêiner, enquanto na agregação, sim."
+"O relacionamento 'é um', onde uma classe herda atributos e métodos de outra, é conhecido como _____.",herança
+"Qual conceito permite que um objeto de uma subclasse seja tratado como um objeto de sua superclasse, com comportamentos diferentes dependendo da subclasse real?",Polimorfismo.
+O que é 'herança múltipla'?,"É a capacidade de uma subclasse herdar de mais de uma classe pai, combinando a funcionalidade de ambas."
+"Qual problema comum pode surgir com a herança múltipla, especialmente quando várias superclasses herdam de uma mesma classe base?",O problema do diamante (diamond problem).
+Qual palavra-chave é usada para iniciar a definição de uma classe em Python?,A palavra-chave `class`.
+"Qual é a convenção de nomenclatura para nomes de classes em Python, de acordo com o PEP 8?","CamelCase, onde cada palavra começa com uma letra maiúscula."
+Como você cria uma instância (objeto) de uma classe chamada `Ponto` em Python?,"Atribuindo o nome da classe seguido de parênteses a uma variável, como `p = Ponto()`."
+Qual é o primeiro argumento obrigatório de qualquer método de instância em uma classe Python?,"Um argumento que se refere à própria instância do objeto, convencionalmente chamado de `self`."
+O que acontece se você esquecer de incluir o parâmetro `self` na definição de um método de instância?,Python levantará um `TypeError` indicando que o método recebeu um argumento a mais do que o esperado.
+Qual é o nome do método especial em uma classe Python que é chamado para inicializar um objeto recém-criado?,O método `__init__`.
+Qual é a diferença entre os métodos `__new__` e `__init__` em Python?,"`__new__` é o construtor que cria o objeto, enquanto `__init__` é o inicializador que configura o objeto após sua criação."
+Como se define um 'docstring' para uma classe ou método em Python?,Colocando uma string literal como a primeira linha logo após a definição da classe ou método.
+"Em Python, um arquivo `.py` que contém definições e instruções é chamado de _____.",módulo
+O que é um 'pacote' (package) em Python?,É uma coleção de módulos contidos em um diretório que inclui um arquivo especial `__init__.py`.
+Qual é a sintaxe para uma 'importação absoluta' de uma classe `Produto` do módulo `produtos` dentro do pacote `ecommerce`?,`from ecommerce.products import Product`.
+O que o ponto inicial em `from .database import Database` significa em uma importação?,"Indica uma 'importação relativa', referindo-se a um módulo no mesmo pacote que o módulo atual."
+Por que a prática `from modulo import *` é fortemente desencorajada em Python?,"Porque polui o namespace local, dificulta a leitura do código e pode introduzir conflitos de nomes inesperados."
+"Qual é o propósito do bloco `if __name__ == ""__main__"":` em um script Python?","Ele permite que o código dentro do bloco seja executado apenas quando o arquivo é executado diretamente, e não quando é importado como um módulo."
+Qual é a convenção em Python para indicar que um atributo ou método é para uso interno e não parte da API pública?,"Prefixar o nome com um único sublinhado (underscore), como em `_variavel_interna`."
+"O que o prefixo de duplo sublinhado (double underscore), como `__variavel`, faz com um atributo de classe em Python?","Ativa o 'name mangling', que altera o nome do atributo para `_NomeDaClasse__variavel`, tornando-o mais difícil de ser acessado externamente."
+Qual é a sintaxe para definir uma subclasse `Fornecedor` que herda da superclasse `Contato` em Python?,`class Fornecedor(Contato):`
+"Uma variável definida diretamente no escopo da classe, fora de qualquer método, é chamada de _____ e é compartilhada por todas as instâncias da classe.",variável de classe
+"Como você pode adicionar nova funcionalidade a um tipo de dado embutido do Python, como `list`?","Criando uma nova classe que herda do tipo embutido, por exemplo, `class MinhaLista(list):`."
+O que significa 'sobrescrever' (override) um método em uma subclasse?,Significa fornecer uma nova implementação para um método que já existe na superclasse.
+Qual função é usada dentro de uma subclasse para chamar um método da sua superclasse?,A função `super()`.
+"Um 'mixin' é uma classe projetada para ser herdada por outras classes para fornecer funcionalidade extra, sendo um caso de uso comum para _____.",herança múltipla
+A ordem em que o Python procura métodos em uma hierarquia de herança complexa é chamada de _____.,Ordem de Resolução de Métodos (Method Resolution Order ou MRO).
+"Ao usar `super()` em uma hierarquia de herança múltipla, qual método ele chama?","Ele chama o 'próximo' método na Ordem de Resolução de Métodos (MRO), que pode não ser um pai direto."
+"O princípio em Python de que 'se anda como um pato e grasna como um pato, então é um pato' é conhecido como _____.",duck typing
+O que são 'Classes Base Abstratas' (Abstract Base Classes ou ABCs)?,Definem um conjunto de métodos e propriedades que uma classe deve implementar para ser considerada uma instância de tipo-pato (duck-type) daquela classe.
+Qual palavra-chave em Python é usada para deliberadamente causar a ocorrência de uma exceção?,A palavra-chave `raise`.
+Qual bloco de código é usado para envolver código que pode potencialmente levantar uma exceção?,O bloco `try`.
+Qual cláusula é usada para especificar o código que deve ser executado se uma exceção for levantada dentro de um bloco `try`?,A cláusula `except`.
+"Como você pode capturar múltiplos tipos de exceção, como `ZeroDivisionError` e `TypeError`, com um único bloco de manipulador?","Listando as exceções em uma tupla após a palavra-chave `except`, como em `except (ZeroDivisionError, TypeError):`."
+Qual cláusula em um bloco `try...except` é executada apenas se nenhuma exceção for levantada?,A cláusula `else`.
+"Qual cláusula em um bloco `try...except` é sempre executada, independentemente de uma exceção ter sido levantada ou tratada?",A cláusula `finally`.
+Como você captura a instância do objeto de exceção em uma variável ao tratá-la?,"Usando a palavra-chave `as`, como em `except ValueError as e:`."
+"Dentro de uma cláusula `except`, como você pode relançar a mesma exceção que foi capturada?",Usando a palavra-chave `raise` sem nenhum argumento.
+"De qual classe embutida todas as exceções em Python devem herdar, direta ou indiretamente?",Da classe `BaseException`.
+Por que é geralmente uma má ideia usar uma cláusula `except:` vazia (sem especificar um tipo de exceção)?,"Porque ela captura todas as exceções, incluindo `SystemExit` e `KeyboardInterrupt`, que normalmente não deveriam ser impedidas."
+"Se você precisa capturar a maioria das exceções, mas permitir que o programa saia normalmente, qual classe de exceção é mais seguro especificar?","A classe `Exception`, pois ela é a superclasse da maioria dos erros comuns, mas não de `SystemExit` ou `KeyboardInterrupt`."
+Como você define uma exceção personalizada em Python?,Criando uma nova classe que herda da classe `Exception` (ou de outra exceção).
+"Qual filosofia de programação o tratamento de exceções em Python incentiva, em vez de verificar precondições extensivamente?",'É mais fácil pedir perdão do que permissão' (Ask forgiveness rather than permission).
+"Na Análise Orientada a Objetos (OOA), o que é identificado em um problema ou sistema?",Os objetos e as interações entre eles.
+O que é produzido durante a fase de Design Orientado a Objetos (OOD)?,"Uma especificação de implementação, como um conjunto de classes e interfaces."
+"Na programação Python, como um método de instância acessa os atributos do seu próprio objeto?","Usando o parâmetro `self`, por exemplo, `self.x = 10`."
+"Em Python, o que o decorador `@classmethod` faz?","Marca um método como um método de classe, que recebe a própria classe como primeiro argumento (`cls`) em vez da instância (`self`)."
+O que o decorador `@staticmethod` faz?,"Cria um método que não recebe um primeiro argumento implícito (nem `self` nem `cls`) e se comporta como uma função normal, mas pertence ao namespace da classe."
+Para que serve o método especial `__contains__` em uma classe de contêiner?,"Ele implementa o comportamento do operador `in`, retornando `True` se o contêiner contém o elemento especificado."
+Qual módulo Python fornece ferramentas para criar Classes Base Abstratas (ABCs)?,O módulo `abc`.
+"Em uma Classe Base Abstrata, como se marca um método que deve ser implementado por todas as subclasses concretas?",Usando o decorador `@abc.abstractmethod`.
+A exceção _____ é levantada quando uma operação ou função é aplicada a um objeto de tipo inadequado.,`TypeError`
+"Quando se tenta acessar uma chave que não existe em um dicionário, qual exceção é levantada?",`KeyError`.
+"A exceção _____ é levantada quando se tenta usar um índice que está fora do intervalo de uma sequência, como uma lista.",`IndexError`
+"Em Python, o que significa que as funções também são objetos?","Significa que elas podem ser atribuídas a variáveis, passadas como argumentos para outras funções e armazenadas em estruturas de dados."
+Qual é a principal vantagem de usar `super().__init__(**kwargs)` em uma hierarquia de herança múltipla?,Garante que cada `__init__` na cadeia MRO seja chamado exatamente uma vez e permite passar argumentos para as superclasses corretas.
+O que é um objeto 'chamável' (callable) em Python?,"É qualquer objeto que pode ser chamado usando o operador de chamada de função `()`, como funções, métodos ou instâncias de classes com um método `__call__`."
+"No caso de estudo imobiliário, por que a herança múltipla foi usada para criar classes como `HouseRental`?",Para combinar as características e comportamentos de duas superclasses distintas (`Rental` e `House`) em uma única classe.
+Qual é o efeito de uma exceção não tratada em um programa Python?,A execução do programa é interrompida e um 'traceback' da exceção é impresso no console.
