@@ -1,6 +1,8 @@
 # 📘 Caderno Temático Financeiro com NotebookLM + IA
 
-[Assista ao vídeo criado pelo NotebookLM](https://youtu.be/eQc_w-IX3g8)
+links:
+- Apresentação em vídeo criado pelo NotebookLM: [Vídeo](https://youtu.be/eQc_w-IX3g8)
+- Áudio estilo podcast criado: [Áudio](https://notebooklm.google.com/notebook/fead2218-7415-49c6-9f62-a0d574fe2866)
 
 ## Visão Geral
 
